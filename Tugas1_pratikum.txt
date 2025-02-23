@@ -1,0 +1,33 @@
+1. DocumentRoot adalah istilah untuk lokasi path (direktori) di filesystem yang menyimpan root (URI = /) dari sebuah website. Agar sebuah file dapat diakses lewat website, ia perlu ditaruh di bawah DocumentRoot (atau, disymlink dari bawah DocumentRoot).
+
+2. Tidak, dokumen root pada Apache Web Server tidak harus terletak di direktori C:\xampp\htdocs. Namun, karena C:\xampp\htdocs adalah direktori default untuk dokumen root jika Anda menggunakan XAMPP, sebuah paket perangkat lunak yang menyediakan Apache, MySQL, PHP, dan Perl untuk digunakan di lingkungan lokal.
+
+3. - git init: perintah yang digunakan untuk membuat/menginisialisasi repository git baru di dalam folder proyek.
+- git clone: perintah yang digunakan untuk menyalin repository yang sudah ada dari remote server ke komputer lokal.
+- git remote: perintah yang digunakan untuk melihat, menambahkan, atau menghapus remote repository (lokasi penyimpanan proyek) yang terhubung dengan repository lokal.
+- git add: perintah yang digunakan untuk menambahkan file yang telah diubah atau baru dibuat ke dalam staging area (tempat sementara) sebelum dilakukan commit.
+- git commit: perintah yang digunakan untuk menyimpan perubahan yang sudah ditambahkan ke dalam repository secara permanen.
+- git push: perintah yang digunakan untuk mengirim/mengunggah perubahan dari repository lokal ke remote repository.
+- git checkout: perintah yang digunakan untuk berpindah ke branch lain atau mengembalikan file ke kondisi/versi tertentu dari riwayat git.
+
+4. Github ialah layanan berbasis cloud yang dimiliki oleh Microsoft, manajemen proyek yang lebih sederhana dan cocok untuk kolaborasi komunitas, pengembang harus menggunakan GitHub Actions atau layanan eksternal lainnya, serta github lebih populer terutama untuk proyek open-source.
+
+ sedangkan
+
+GitLab ialah  platform berbasis open-source yang bisa diinstal secara mandiri, gitlab lebih fleksibel karena memungkinkan self-hosting, cocok untuk perusahaan yang ingin mengelola server sendiri tanpa ketergantungan pada layanan cloud pihak ketiga, GitLab memiliki CI/CD bawaan yang lebih mudah digunakan, GitLab menawarkan kontrol yang lebih mendalam dalam pengelolaan proyek, serta GitLab lebih banyak digunakan dalam lingkungan perusahaan dan organisasi yang membutuhkan kontrol lebih besar.
+
+5. Variabel user adalah variabel lingkungan yang ditetapkan untuk setiap pengguna, sedangkan variabel system adalah variabel lingkungan yang ditetapkan untuk semua pengguna. 
+
+sedangkan
+
+Variabel sistem adalah komponen atau parameter dalam suatu sistem yang digunakan untuk menggambarkan, mengontrol, atau memengaruhi perilaku sistem tersebut. Variabel ini bisa berupa input, output, atau variabel internal yang memengaruhi dinamika sistem.
+
+Perbedaan variabel user dan variabel system:
+Variabel user ditetapkan untuk setiap pengguna, sedangkan variabel system ditetapkan untuk semua pengguna. 
+Jalur pengguna tidak memungkinkan untuk mengganti jalur sistem. 
+Jalur sistem dicari secara berurutan, dari kiri ke kanan, dan jalur pengguna ditambahkan di sisi kanan. 
+Proses anak mewarisi variabel lingkungan dari proses induknya
+
+6. sama-sama menyimpan nilai, digunakan dalam perhitungan atau proses sistem, 
+dideklarasikan dalam suatu lingkungan atau sistem, dapat memiliki tipe data yang 
+sama
