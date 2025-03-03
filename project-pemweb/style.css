@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body:hover {
+    overflow: auto;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: white;
+    color: #000;
+
+}
+
+.navbar-brand,
+.nav-link {
+    color: blue !important;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+.btn-custom {
+    background-color: #ff4b5c;
+    color: white;
+    padding: 20px 20px;
+    border: 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-top: 150px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.section p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    /* Lebar scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #555;
+    /* Warna track scrollbar */
+    border-radius: 5px;
+    /* Radius lengkung */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Warna handle scrollbar */
+    border-radius: 5px;
+    /* Radius lengkung */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Warna handle saat dihover */
+}
+
+
+/* Section Styling */
+.section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* About Us Styling */
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-details {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 500px;
+    /* Batas lebar teks */
+}
+
+.about-details p {
+    margin-bottom: 20px;
+}
+
+.about-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    max-width: 100%;
+    /* Menyesuaikan lebar gambar */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    /* Memastikan gambar tetap proporsional */
+    max-height: 300px;
+    /* Membatasi tinggi gambar */
+    transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image-container {
+        margin-bottom: 20px;
+    }
+
+    .about-details {
+        max-width: 100%;
+    }
+}
+
+/* Koleksi Buku */
+.filter-button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .filter-button {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+.book-item {
+    margin: 10px;
+    /* Jarak antar kartu */
+}
+
+.row {
+    justify-content: flex-start;
+    /* Rapi ke kiri */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border-color: #6c757d;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+}
+
+/* Ukuran teks logo */
+
+.logo img {
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    /* Bold teks menu */
+    margin-right: 15px;
+    /* Jarak antar menu */
+}
+
+.navbar .btn-primary {
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+.card-img-top {
+    height: 200px;
+    /* Pastikan semua gambar memiliki tinggi yang sama */
+    width: auto;
+    /* Sesuaikan lebar proporsional */
+    display: block;
+    margin: 0 auto;
+    /* Tengah secara horizontal */
+}
+
+.card {
+    text-align: center;
+    /* Tengahkan semua konten dalam kartu */
+}
+
+/* Form Pendaftaran */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+#Pendaftaran {
+    background-color: #f8f9fa;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.form-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.form-container p {
+    color: #6c757d;
+}
+
+.form-container .form-floating label {
+    color: #6c757d;
+}
+
+.form-container .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 576px) {
+    .form-container {
+        padding: 20px;
+    }
+}
+
+/* Contact */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.contact-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.contact-card h2 {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* keunggulan web */
+#Keunggulan-Web .separator {
+    height: 10px;
+    background-color: black;
+    margin: 15px 0;
+    border-radius: 2px;
+}
+
+#Keunggulan-Web .card-title {
+    color: #007BFF;
+    /* Warna teks judul */
+}
+
+#Keunggulan-Web .card-text {
+    color: #333;
+    /* Warna teks paragraf */
+}
